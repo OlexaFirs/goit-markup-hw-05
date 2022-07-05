@@ -34,7 +34,7 @@
                     
                     <a class="contacts-links" href="mailto:info@devstudio.com">
                         <svg class="header-icon" width="16px" height="12px">
-                            <use href="./images/symbol-defs.svg#header-mail-icon"></use>
+                            <use href="./images/symbol-defs.svg#icon-header-envelope"></use>
                         </svg>
                         info@devstudio.com</a>
                     
@@ -42,7 +42,7 @@
                 <li class="header-contacts-item">
                     <a class="contacts-links" href="tel:+380961111111">
                         <svg class="header-icon" width="10px" height="16px">
-                            <use href="./images/symbol-defs.svg#header-smartphone-icon"></use>
+                            <use href="./images/symbol-defs.svg#icon-header-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a>
                 </li>
@@ -55,7 +55,7 @@
         <section class="main-section">
             <div class="container">
                 <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="main-btn" type="button">Замовити послугу</button>
+                <button data-modal-open class="main-btn" type="button">Замовити послугу</button>
             </div>
         </section>
         <section class="section preference">
@@ -65,7 +65,7 @@
                     <li class="preference-item">
                         <div class="preference-item-div">
                             <svg class="preference-icon" width="70px" heigth="70px">
-                                <use href="./images/symbol-defs.svg#icon-preference-details-icon"></use>
+                                <use href="./images/symbol-defs.svg#icon-antenna"></use>
                             </svg>
                         </div>
                         <h3 class="preference-title">Увага до деталей</h3>
@@ -76,7 +76,7 @@
                     <li class="preference-item">
                         <div class="preference-item-div">
                             <svg class="preference-icon" width="70px" heigth="70px">
-                                <use href="./images/symbol-defs.svg#icon-preference-clock-icon"></use>
+                                <use href="./images/symbol-defs.svg#icon-clock"></use>
                             </svg>
                         </div>
                         <h3 class="preference-title">Пунктуальність</h3>
@@ -87,7 +87,7 @@
                     <li class="preference-item">
                         <div class="preference-item-div">
                             <svg class="preference-icon" width="70px" heigth="70px">
-                                <use href="./images/symbol-defs.svg#icon-preference-diagram-icon"></use>
+                                <use href="./images/symbol-defs.svg#icon-diagram"></use>
                             </svg>
                         </div>
                         <h3 class="preference-title">Планування</h3>
@@ -98,7 +98,7 @@
                     <li class="preference-item">
                         <div class="preference-item-div">
                             <svg class="preference-icon" width="70px" heigth="70px">
-                                <use href="./images/symbol-defs.svg#icon-preference-astronaut-icon"></use>
+                                <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                             </svg>
                         </div>
                         <h3 class="preference-title">Сучасні технології</h3>
@@ -116,19 +116,35 @@
                 <h2 class="work-title">Чим ми займаємось</h2>
                 <ul class="work-list">
                     <li class="work-item">
-                        <img class="picture" src="./images/box-1.jpg" alt="Фото з компьютером" width="370"
-                            height="294" />
+                        <div class="work-thumb">
+                        <img class="picture" src="./images/box-1.jpg" 
+                        alt="Фото з компьютером" 
+                        width="370"
+                        height="294" />
+                        <p class="work-label">Десктопні застосунки</p>
+                        </div>
                     </li>
                     <li class="work-item">
-                        <img class="picture" src="./images/box-2.jpg" alt="Фото з ноутбуком" width="370" height="294" />
+                        <div class="work-thumb">
+                        <img class="picture" src="./images/box-2.jpg" 
+                        alt="Фото з ноутбуком" 
+                        width="370" 
+                        height="294" />
+                        <p class="work-label">Мобільні застосунки</p>
+                        </div>
                     </li>
                     <li class="work-item">
-                        <img class="picture" src="./images/box-3.jpg" alt="Фото з планшетом" width="370" height="294" />
+                        <div class="work-thumb">
+                        <img class="picture" src="./images/box-3.jpg" 
+                        alt="Фото з планшетом" 
+                        width="370" 
+                        height="294" />
+                        <p class="work-label">Дизайнерські рішення</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
-
         <!--team-->
         <section class="section team">
             <div class="container">
@@ -145,7 +161,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-instagram-1">
+                                            <use href="./images/symbol-defs.svg#icon-instagram">
                                             </use>
                                         </svg>
                                     </div>
@@ -155,7 +171,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-twitter-2">
+                                            <use href="./images/symbol-defs.svg#icon-twitter">
                                             </use>
                                         </svg>
                                     </div>
@@ -165,7 +181,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-facebook-3">
+                                            <use href="./images/symbol-defs.svg#icon-facebook">
                                             </use>
                                         </svg>
                                     </div>
@@ -175,7 +191,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-linkedin-4">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin">
                                             </use>
                                         </svg>
                                     </div>
@@ -196,7 +212,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-instagram-1">
+                                            <use href="./images/symbol-defs.svg#icon-instagram">
                                             </use>
                                         </svg>
                                     </div>
@@ -206,7 +222,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-twitter-2">
+                                            <use href="./images/symbol-defs.svg#icon-twitter">
                                             </use>
                                         </svg>
                                     </div>
@@ -216,7 +232,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-facebook-3">
+                                            <use href="./images/symbol-defs.svg#icon-facebook">
                                             </use>
                                         </svg>
                                     </div>
@@ -226,7 +242,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-linkedin-4">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin">
                                             </use>
                                         </svg>
                                     </div>
@@ -246,7 +262,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-instagram-1">
+                                            <use href="./images/symbol-defs.svg#icon-instagram">
                                             </use>
                                         </svg>
                                     </div>
@@ -256,7 +272,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-twitter-2">
+                                            <use href="./images/symbol-defs.svg#icon-twitter">
                                             </use>
                                         </svg>
                                     </div>
@@ -266,7 +282,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-facebook-3">
+                                            <use href="./images/symbol-defs.svg#icon-facebook">
                                             </use>
                                         </svg>
                                     </div>
@@ -276,7 +292,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-linkedin-4">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin">
                                             </use>
                                         </svg>
                                     </div>
@@ -296,7 +312,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-instagram-1">
+                                            <use href="./images/symbol-defs.svg#icon-instagram">
                                             </use>
                                         </svg>
                                     </div>
@@ -306,7 +322,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-twitter-2">
+                                            <use href="./images/symbol-defs.svg#icon-twitter">
                                             </use>
                                         </svg>
                                     </div>
@@ -316,7 +332,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-facebook-3">
+                                            <use href="./images/symbol-defs.svg#icon-facebook">
                                             </use>
                                         </svg>
                                     </div>
@@ -326,7 +342,7 @@
                                     <a class="team-net-link" href="#">
                                     <div class="cirkle-icon">
                                         <svg class="team-net-icon" width="20px" height="20px">
-                                            <use href="./images/symbol-defs.svg#icon-linkedin-4">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin">
                                             </use>
                                         </svg>
                                     </div>
@@ -347,7 +363,7 @@
                 <li class="clients-item">
                     <a class="clients-link" href="#">
                             <svg class="clients-logo" width="106" height="60px" aria-label="Перша компанія">
-                                <use href="./images/symbol-defs.svg#icon-company-1">
+                                <use href="./images/symbol-defs.svg#icon-logo-1">
                                 </use> 
                             </svg>
                     </a>
@@ -355,7 +371,7 @@
                 <li class="clients-item">
                     <a class="clients-link" href="#">
                             <svg class="clients-logo" width="106" height="60px" aria-label="Друга компанія">
-                                <use href="./images/symbol-defs.svg#icon-company-2">
+                                <use href="./images/symbol-defs.svg#icon-logo-2">
                                 </use>
                             </svg>
                     </a>
@@ -363,7 +379,7 @@
                 <li class="clients-item">
                     <a class="clients-link" href="#">
                             <svg class="clients-logo" width="106" height="60px" aria-label="Третя компанія">
-                                <use href="./images/symbol-defs.svg#icon-company-3">
+                                <use href="./images/symbol-defs.svg#icon-logo-3">
                                 </use>
                             </svg>
                     </a>
@@ -371,7 +387,7 @@
                 <li class="clients-item">
                     <a class="clients-link" href="#">
                             <svg class="clients-logo" width="106" height="60px" aria-label="Четверта компанія">
-                                <use href="./images/symbol-defs.svg#icon-company-4">
+                                <use href="./images/symbol-defs.svg#icon-logo-4">
                                 </use>
                             </svg>
                     </a>
@@ -379,7 +395,7 @@
                 <li class="clients-item">
                     <a class="clients-link" href="#">
                             <svg class="clients-logo" width="106" height="60px" aria-label="П'ята компанія">
-                                <use href="./images/symbol-defs.svg#icon-company-5">
+                                <use href="./images/symbol-defs.svg#icon-logo-5">
                                 </use>
                             </svg>
                     </a>
@@ -387,7 +403,7 @@
                 <li class="clients-item">
                     <a class="clients-link" href="#">
                             <svg class="clients-logo" width="106" height="60px" aria-label="Шоста компанія">
-                                <use href="./images/symbol-defs.svg#icon-company-6">
+                                <use href="./images/symbol-defs.svg#icon-logo-6">
                                 </use>
                             </svg>
                     </a>
@@ -423,7 +439,7 @@
                         <a class="net-link" href="#">
                         <div class="cirkle-icon">
                             <svg class="footer-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-instagram-1">
+                                <use href="./images/symbol-defs.svg#icon-instagram">
                                 </use>
                             </svg>
                         </div>
@@ -433,7 +449,7 @@
                         <a class="net-link" href="#">
                         <div class="cirkle-icon">
                             <svg class="footer-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-twitter-2">           
+                                <use href="./images/symbol-defs.svg#icon-twitter">           
                                 </use>
                             </svg>
                         </div>
@@ -443,7 +459,7 @@
                         <a class="net-link" href="#">
                         <div class="cirkle-icon">
                             <svg class="footer-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-facebook-3">                    
+                                <use href="./images/symbol-defs.svg#icon-facebook">                    
                                 </use>
                             </svg>
                         </div>
@@ -453,7 +469,7 @@
                         <a class="net-link" href="#">
                         <div class="cirkle-icon">
                             <svg class="footer-icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-linkedin-4">                   
+                                <use href="./images/symbol-defs.svg#icon-linkedin">                   
                                 </use>
                             </svg>
                         </div>
@@ -463,6 +479,7 @@
             </div>
         </div>
     </footer>
+
     <script src="./js/modal.js"></script>
 </body>
 </html>
