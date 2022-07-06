@@ -459,9 +459,9 @@ body {
     line-height: 1.62;
     border-color: transparent;
     border-radius: 4px;
-    transition: color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function),
-    box-shadow 250ms var(--timing-function);
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .filter-btn:hover,
@@ -521,7 +521,9 @@ body {
 
 .portfolio-link {
     display: block;
-    transition: box-shadow 250ms var(--timing-function);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .portfolio-link:hover,
@@ -552,8 +554,10 @@ body {
     line-height: 1.56;
     color: var(--primary-white-color);
     background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(101%);
-    transition: transform 250ms var(--timing-function);
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .portfolio-list-item:hover .portfolio-text {
@@ -596,12 +600,16 @@ body {
 }
 
 .address-map-link{
-    transition: color 250ms var(--timing-function);
+    transition-property: color ;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .footer-contacts {
     color: var(--footer-contact-text);
-    transition: color 250ms var(--timing-function);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .footer-links{
