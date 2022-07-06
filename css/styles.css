@@ -633,7 +633,9 @@ body {
     height: 44px;
     border-radius: 50%;
     cursor: pointer;
-    transition: background-color 250ms var(--timing-function);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .footer-icon{
@@ -671,7 +673,9 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.);
     opacity: 1;
-    transition: opacity 250ms var(--timing-function);
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -694,7 +698,10 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: transform 250ms var(--timing-function);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+
 }
 
 .close-button {
