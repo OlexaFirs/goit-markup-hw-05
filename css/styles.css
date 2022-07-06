@@ -144,7 +144,9 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    transition: color 250ms var(--timing-function);
+    transition-property: color; 
+    transition-duration: 250ms; 
+    transition-timing-function: var(--timing-function);
 }
 
 .container {
@@ -219,7 +221,9 @@ body {
     font-size: 16px;
     min-width: 200px;
     padding: 10px 32px;
-    transition: background-color 250ms var(--timing-function);
+    transition-property: background-color; 
+    transition-duration: 250ms; 
+    transition-timing-function: var(--timing-function);
 }
 
 .main-btn:hover,
@@ -394,7 +398,9 @@ body {
 
 .clients-logo {
     fill: var(--client-color);
-    transition: fill 250ms var(--timing-function);
+    transition-property: fill; 
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .clients-list{
@@ -408,7 +414,9 @@ body {
     height: 92px;
     border: 1px solid var(--client-color);
     border-radius: 4px;
-    transition: border-color 250ms var(--timing-function);
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
 }
 
 .clients-link{
